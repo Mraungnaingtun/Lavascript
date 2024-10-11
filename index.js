@@ -1,8 +1,9 @@
 
-function createMultiplier(factor) {
-    return function (number) {
-      return number * factor;
-    };
-  }
-  const abc = createMultiplier(2); // Returns a function that doubles a number
-  console.log(`Double of 10: ${abc(10)}`);
+let numbers = [1, 2, 3, 4, 5];
+let moreNumbers = [7, 8, 9];
+
+let copiedArray = [...numbers];
+console.log("Copied array using spread operator:", copiedArray);
+
+let mergedArray = [...numbers, ...moreNumbers];
+console.log("Merged array using spread operator:", mergedArray);
