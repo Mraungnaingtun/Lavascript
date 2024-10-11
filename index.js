@@ -30,7 +30,7 @@ try {
     let result = divide(10, 0); // This will throw an error
     console.log("Result:", result);
 } catch (error) {
-    console.log("Error:", error.message);
+    console.error("Error:", error.message);
 }
 
 try {
@@ -41,7 +41,7 @@ try {
 } finally {
     console.log("This block always executes.");
 }
-
+//----------------------------------------------------------------------------------
 // Another example with try-catch-finally
 try {
     console.log("\nTrying to parse JSON:");

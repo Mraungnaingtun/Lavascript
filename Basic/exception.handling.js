@@ -41,7 +41,7 @@ try {
 } finally {
     console.log("This block always executes.");
 }
-
+//----------------------------------------------------------------------------------
 // Another example with try-catch-finally
 try {
     console.log("\nTrying to parse JSON:");
