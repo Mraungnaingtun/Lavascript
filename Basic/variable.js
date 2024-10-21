@@ -1,4 +1,20 @@
 // JavaScript Variable Examples ----------var/let/const
+
+// Variables are Containers for Storing Data
+// JavaScript Variables can be declared in 4 ways:
+//1) Automatically
+//2) Using var
+//3) Using let
+//4) Using const
+
+//-------------------------------------------------------------------
+//They are automatically declared when first used:
+x = 5;
+y = 6;
+z = x + y;
+console.log(z);
+//It is considered good programming practice to always declare variables before use.
+//-------------------------------------------------------------------
 // 1. Declaring Variables
 // Example of var
 var name = "Alice"; // 'var' declares a variable globally or throughout the function
@@ -30,12 +46,15 @@ let colors = ["red", "green", "blue"];
 console.log(colors); // Output: ["red", "green", "blue"]
 
 // Object Variable
-let person = {
+const person = {
     firstName: "John",
     lastName: "Doe",
-    age: 25
+    id: 5566,
+    fullName: function () {
+        return this.firstName + " " + this.lastName;
+    }
 };
-console.log(person); // Output: { firstName: "John", lastName: "Doe", age: 25 }
+
 //----------------------------------------------------------------------------------------------
 // 3. Variable Scope
 // Global Scope
