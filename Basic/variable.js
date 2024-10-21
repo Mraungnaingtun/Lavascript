@@ -1,4 +1,4 @@
-// JavaScript Variable Examples
+// JavaScript Variable Examples ----------var/let/const
 // 1. Declaring Variables
 // Example of var
 var name = "Alice"; // 'var' declares a variable globally or throughout the function
