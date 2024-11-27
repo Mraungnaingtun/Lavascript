@@ -1,5 +1,7 @@
 // JavaScript Iteration Methods
 
+
+//--------------------------Arrays----------------------------------------
 // 1. Iterating Over Arrays
 
 // Sample array
@@ -33,6 +35,8 @@ console.log("\nUsing filter():");
 const longFruits = fruits.filter(fruit => fruit.length > 5);
 console.log("Fruits with more than 5 letters:", longFruits); // Output: [ 'banana', 'cherry' ]
 
+
+//--------------------------Objects----------------------------------------
 // 2. Iterating Over Objects
 
 // Sample object
@@ -66,6 +70,9 @@ Object.values(person).forEach(value => {
   console.log(value);
 });
 
+
+
+//-----------------------------Maps-------------------------------------
 // 3. Iterating Over Maps
 
 // Sample Map
@@ -87,6 +94,8 @@ for (const [key, value] of fruitMap.entries()) {
   console.log(`${key}: ${value}`);
 }
 
+
+//-----------------------------Maps-------------------------------------
 // 4. Iterating Over Sets
 
 // Sample Set

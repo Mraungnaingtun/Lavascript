@@ -13,20 +13,25 @@ x = 5;
 y = 6;
 z = x + y;
 console.log(z);
+
+
+//----------------------------------------------------------------------------------------------
+
 //It is considered good programming practice to always declare variables before use.
-//-------------------------------------------------------------------
 // 1. Declaring Variables
 // Example of var
-var name = "Alice"; // 'var' declares a variable globally or throughout the function
-console.log(name); // Output: Alice
 
-// Example of let
+// 'var' declares a variable globally or throughout the function
+var name = "Alice"; 
+console.log(name);
+
 let age = 30; // 'let' declares a block-scoped variable
 console.log(age); // Output: 30
 
-// Example of const
 const pi = 3.14; // 'const' declares a block-scoped variable that cannot be reassigned
 console.log(pi); // Output: 3.14
+
+
 //----------------------------------------------------------------------------------------------
 // 2. Different Data Types
 // String Variable
@@ -70,7 +75,8 @@ function myFunction() {
     let localVar = "I'm a local variable";
     console.log(localVar); // Accessible only within this function
 }
-myFunction(); // Output: I'm a local variable
+myFunction(); 
+// Output: I'm a local variable
 // console.log(localVar); // Error: localVar is not defined
 //----------------------------------------------------------------------------------------------
 // 4. Updating Variables
