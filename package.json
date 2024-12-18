@@ -13,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "my-javascript-project": "file:",
+    "qrcode": "^1.5.4",
     "rxjs": "^7.8.1"
   }
 }
