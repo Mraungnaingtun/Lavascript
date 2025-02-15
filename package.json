@@ -1,19 +1,27 @@
 {
-  "name": "my-javascript-project",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "type": "module",
-  "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "my-javascript-project": "file:",
-    "qrcode": "^1.5.4",
-    "rxjs": "^7.8.1"
+    "name": "typescript-project",
+    "version": "1.0.0",
+    "description": "A simple TypeScript project",
+    "main": "dist/index.js",
+    "scripts": {
+      "build": "tsc",                     
+      "start": "npm run build && node dist/index.js", 
+      "dev": "tsc --watch",                
+      "lint": "eslint . --ext .ts",
+      "test": "jest"
+    },
+    "dependencies": {
+      "typescript": "^4.5.0",
+      "ts-node": "^10.0.0",
+      "eslint": "^7.32.0",
+      "jest": "^27.4.5"
+    },
+    "devDependencies": {
+      "@types/node": "^16.0.0",
+      "@typescript-eslint/eslint-plugin": "^5.0.0",
+      "@typescript-eslint/parser": "^5.0.0"
+    },
+    "author": "Your Name",
+    "license": "MIT"
   }
-}
+  
